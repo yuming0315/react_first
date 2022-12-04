@@ -1,12 +1,9 @@
-import MyComponent from './MyComponent'
-import './App.css';
+import MyComponent from "./MyComponent";
+import EventPractice from "./EventPractice";
+import "./App.css";
 
-function App() {
-  return (
-    <div >
-     <MyComponent  />
-    </div>
-  );
-}
+const App = () => {
+  return <EventPractice />;
+};
 
 export default App;
